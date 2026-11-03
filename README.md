@@ -38,7 +38,7 @@ Update project cards in `src/data/projects.ts`, skills in `src/data/skills.ts`, 
 
 The included workflow builds and deploys on pushes to `main` and manual workflow runs. In the repository, open **Settings → Pages** and select **GitHub Actions** as the publishing source.
 
-The workflow automatically builds `creepcomp.github.io` for the site root and other repositories for their `/<repository-name>/` path. Public assets and the favicon follow Vite's configured base path. To choose a different path for a local build, set `VITE_BASE_PATH`, for example:
+The workflow automatically builds `creepcomp.ir` for the site root and other repositories for their `/<repository-name>/` path. Public assets and the favicon follow Vite's configured base path. To choose a different path for a local build, set `VITE_BASE_PATH`, for example:
 
 ```bash
 VITE_BASE_PATH=/my-portfolio/ npm run build
