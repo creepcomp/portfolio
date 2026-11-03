@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "id": "network-fa",
+    "direction": "rtl",
+    "locale": "fa"
+  },
+  "personal": {
+    "name": "پارسا رستم زاده",
+    "title": "Network Engineer",
+    "email": "creepcomp@gmail.com",
+    "phone": "+98-9361966744",
+    "location": "تهران، ایران",
+    "image": "/profile.webp",
+    "website": "creepcomp.ir",
+    "summary": "فارغ التحصیل کارشناسی شبکه، با تمرکز بر طراحی، پیاده‌سازی، پیکربندی و نگهداری زیرساخت‌های شبکه و سرور. دارای دانش فنی در حوزه Routing و Switching، تجهیزات Cisco، مفاهیم CCNA و CCNP و پروتکل‌های شبکه. آشنا با مجازی‌سازی و شبیه‌سازی زیرساخت‌ها با EVE-NG، GNS3 و QEMU/KVM و مانیتورینگ شبکه و سرورها با Zabbix. دارای تجربه عملی در محیط‌های آزمایشگاهی در زمینه مدیریت سیستم‌های Linux و Windows Server، نگهداری سرویس‌ها، مدیریت پایگاه داده، Backup و Recovery و کار با Docker و ابزارهای زیرساختی."
+  },
+  "education": [
+    {
+      "degree": "کارشناسی ارشد مهندسی کامپیوتر - گرایش نرم افزار",
+      "institution": "دانشگاه آزاد اسلامی (واحد الکترونیک)",
+      "period": "در حال تحصیل - 1405",
+      "details": "در حال تحصیل در مقطع کارشناسی ارشد مهندسی کامپیوتر به صورت مجازی."
+    },
+    {
+      "degree": "کارشناسی مهندسی کامپیوتر - گرایش شبکه",
+      "institution": "دانشکده فنی شهید شمسی پور (تهران)",
+      "period": "1405 - 1403",
+      "details": "طراحی و پیاده سازی زیرساخت های پیشرفته شبکه، پیکربندی تجهیزات Cisco در لایه های ۲ و ۳، شبیه سازی سناریوهای پیچیده شبکه با EVE-NG و GNS3، مدیریت سرویس های شبکه، Linux Administration، Docker و مبانی مدیریت زیرساخت."
+    },
+    {
+      "degree": "کاردانی مهندسی کامپیوتر",
+      "institution": "دانشکده فنی شهید شمسی پور (تهران)",
+      "period": "1403 - 1401",
+      "details": "مبانی شبکه های کامپیوتری، پروتکل های ارتباطی، تجهیزات Cisco، مفاهیم CCNA، آدرس دهی IP، Subnetting، Routing، Switching و پیاده سازی سناریوهای عملی با Cisco Packet Tracer."
+    },
+    {
+      "degree": "دیپلم مهندسی کامپیوتر - گرایش شبکه",
+      "institution": "هنرستان فنی نمونه دولتی رسالت (تهران)",
+      "period": "1401 - 1399",
+      "details": "مبانی کامپیوتر، سخت افزار و نرم افزار، الگوریتم نویسی، برنامه نویسی با C#، مبانی شبکه و پیکربندی تجهیزات MikroTik."
+    }
+  ],
+  "skills": [
+    "Network Administration",
+    "TCP/IP & OSI Model",
+    "Routing & Switching",
+    "Cisco Networking (CCNA / CCNP Concepts)",
+    "IP Addressing & Subnetting",
+    "VLAN, Trunking & Inter-VLAN Routing",
+    "Network Protocols (DNS, DHCP, NAT, STP, OSPF)",
+    "Network Troubleshooting",
+    "Network Monitoring (Zabbix)",
+    "Linux System Administration",
+    "Windows Server Administration",
+    "Server Maintenance & Administration",
+    "Backup & Recovery",
+    "Database Administration",
+    "Database Backup & Restoration",
+    "PostgreSQL & MariaDB",
+    "Virtualization (QEMU/KVM)",
+    "Network Simulation (EVE-NG, GNS3)",
+    "Docker & Containerization",
+    "Git & CI/CD",
+    "Bash & Python Scripting",
+    "Infrastructure Monitoring & Troubleshooting",
+    "System Logs & Performance Monitoring"
+  ],
+  "projects": [
+    {
+      "name": "EVE-NG Labs",
+      "description": "مجموعه سناریوهای آزمایشگاهی شبکه با تمرکز بر شبیه سازی، پیکربندی و بررسی عملکرد تجهیزات و زیرساخت های شبکه در محیط EVE-NG.",
+      "url": "https://github.com/creepcomp/eve-ng-labs"
+    },
+    {
+      "name": "Cisco Sentinel",
+      "description": "پروژه مرتبط با زیرساخت و شبکه با تمرکز بر ابزارها و فناوری های حوزه شبکه.",
+      "url": "https://github.com/creepcomp/cisco-sentinel"
+    }
+  ],
+  "social": {
+    "phone": "+98-9361966744",
+    "email": "creepcomp@gmail.com",
+    "linkedin": "linkedin.com/in/creepcomp",
+    "github": "github.com/creepcomp"
+  }
+}
