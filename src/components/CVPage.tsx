@@ -52,7 +52,7 @@ interface CVData {
   education: EducationEntry[];
   skills: string[];
   projects: Project[];
-  awards: Award[];
+  awards?: Award[];
   social: SocialLinks;
 }
 
@@ -96,7 +96,7 @@ export function CVPage() {
     );
   }
 
-  const { meta, personal, education, skills, projects, awards, social } = cvData;
+  const { meta, personal, education, skills, projects, awards = [], social } = cvData;
   const isRTL = meta.direction === "rtl";
 
   const handlePrint = () => {
@@ -105,12 +105,11 @@ export function CVPage() {
 
   return (
     <div className={cn("cv-container min-h-[297mm] w-[210mm] mx-auto bg-white text-black", isRTL ? "rtl" : "ltr")} style={{ fontFamily: "'Geist Variable', sans-serif" }} dir={meta.direction}>
-      {/* Page 1: Header, About, Education, Skills */}
       <div className="cv-page p-8 md:p-10 space-y-6" style={{ minHeight: "297mm" }}>
         {/* Header */}
         <header className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 pb-3">
           <div className="flex-1 flex items-center gap-6">
-            {/* Profile Image at inline-start (before name in reading direction) */}
+            {/* Profile */}
             {personal.image && (
               <div className="shrink-0">
                 <img src={personal.image} alt={personal.name} className="w-24 h-24 md:w-28 md:h-28 rounded-lg object-cover border-2 border-gray-200" />
@@ -180,21 +179,7 @@ export function CVPage() {
           </div>
         </section>
 
-        {/* Skills */}
-        <section className="space-y-3">
-          <h2 className="text-xl font-semibold uppercase tracking-wider text-gray-800 border-b border-gray-300 pb-1 flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-gray-600" aria-hidden="true" />
-            {meta.locale === "fa" ? "مهارت‌ها" : "Skills"}
-          </h2>
-          <div className="flex flex-wrap gap-2" dir="auto">
-            {skills.map((skill, index) => (
-              <span key={index} className="px-3 py-1.5 text-sm font-medium bg-gray-100 text-gray-800 border border-gray-200 rounded">
-                {skill}
-              </span>
-            ))}
-          </div>
-        </section>
-
+        {/* Projects */}
         <section className="space-y-5 print-avoid-break pt-3">
           <h2 className="text-xl font-semibold uppercase tracking-wider text-gray-800 border-b border-gray-300 pb-1 flex items-center gap-2">
             <Box className="w-5 h-5 text-gray-600" aria-hidden="true" />
@@ -215,26 +200,43 @@ export function CVPage() {
           </div>
         </section>
 
-        {/* Awards */}
-        <section className="space-y-4 print-avoid-break pt-3">
+        {/* Skills */}
+        <section className="space-y-3">
           <h2 className="text-xl font-semibold uppercase tracking-wider text-gray-800 border-b border-gray-300 pb-1 flex items-center gap-2">
-            <Trophy className="w-5 h-5 text-gray-600" aria-hidden="true" />
-            {meta.locale === "fa" ? "جوایز و افتخارات" : "Awards"}
+            <Sparkles className="w-5 h-5 text-gray-600" aria-hidden="true" />
+            {meta.locale === "fa" ? "مهارت‌ها" : "Skills"}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {awards.map((award, index) => (
-              <div key={index} className="space-y-1 p-4 border border-gray-200 rounded-lg bg-gray-50">
-                <h3 className="font-semibold text-gray-900 text-base">{award.name}</h3>
-                <p className="text-gray-700 text-sm leading-relaxed">{award.description}</p>
-                {award.url && (
-                  <a href={award.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-sm text-blue-600 hover:underline" dir="ltr">
-                    {award.url}
-                  </a>
-                )}
-              </div>
+          <div className="flex flex-wrap gap-2" dir="auto">
+            {skills.map((skill, index) => (
+              <span key={index} className="px-3 py-1.5 text-sm font-medium bg-gray-100 text-gray-800 border border-gray-200 rounded">
+                {skill}
+              </span>
             ))}
           </div>
         </section>
+
+        {/* Awards */}
+        {awards.length > 0 ? (
+          <section className="space-y-4 print-avoid-break pt-3">
+            <h2 className="text-xl font-semibold uppercase tracking-wider text-gray-800 border-b border-gray-300 pb-1 flex items-center gap-2">
+              <Trophy className="w-5 h-5 text-gray-600" aria-hidden="true" />
+              {meta.locale === "fa" ? "جوایز و افتخارات" : "Awards"}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {awards.map((award, index) => (
+                <div key={index} className="space-y-1 p-4 border border-gray-200 rounded-lg bg-gray-50">
+                  <h3 className="font-semibold text-gray-900 text-base">{award.name}</h3>
+                  <p className="text-gray-700 text-sm leading-relaxed">{award.description}</p>
+                  {award.url && (
+                    <a href={award.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-sm text-blue-600 hover:underline" dir="ltr">
+                      {award.url}
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         {/* Social Links */}
         <section className="space-y-3 pt-3 border-gray-300 print-avoid-break">
