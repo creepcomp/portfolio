@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "full-stack-fa",
+    "direction": "rtl",
+    "locale": "fa"
+  },
+  "personal": {
+    "name": "پارسا رستم زاده",
+    "title": "Full-Stack Developer",
+    "email": "creepcomp@gmail.com",
+    "phone": "+98-9361966744",
+    "location": "تهران، ایران",
+    "image": "/profile.webp",
+    "website": "creepcomp.ir",
+    "summary": "توسعه دهنده Full-Stack وب با تمرکز بر طراحی و ساخت اپلیکیشن های وب با React، NextJS و Django. مسلط به TypeScript، Python و ساختار RESTful API. دارای مهارت در توسعه رابط کاربری با Tailwind، Shadcn، MUI و Redux. کار با پایگاه داده های PostgreSQL، MongoDB و ObjectDB و همچنین Linux، Docker، Git، CI/CD."
+  },
+  "education": [
+    {
+      "degree": "فوق لیسانس مهندسی کامپیوتر",
+      "institution": "دانشگاه آزاد اسلامی (واحد الکترونیک)",
+      "period": "در حال تحصیل - 1405",
+      "details": "در حال تحصیل در مقطع کارشناسی ارشد مهندسی کامپیوتر گرایش نرم افزار دانشگاه آزاد واحد الکترونیک به صورت مجازی می باشم."
+    },
+    {
+      "degree": "فوق دیپلم مهندسی کامپیوتر",
+      "institution": "دانشکده فنی شهید شمسی پور (تهران)",
+      "period": "1405 - 1402",
+      "details": "طراحی و پیاده‌سازی زیرساخت‌های پیچیده شبکه، پیکربندی تجهیزات Cisco در لایه های ۳ و ۲، شبیه‌سازی سناریوهای پیچیده با EVE-NG، GNS3. مدیریت سرویس‌های شبکه، Linux Administration و Docker."
+    },
+    {
+      "degree": "لیسانس مهندسی کامپیوتر (گرایش شبکه)",
+      "institution": "دانشکده فنی شهید شمسی پور (تهران)",
+      "period": "1402 - 1400",
+      "details": "مبانی شبکه‌های کامپیوتری، پروتکل‌های ارتباطی، تجهیزات Cisco، آدرس‌دهی IP، Subnetting، Routing، مفاهیم CCNA، پیکربندی تجهیزات Cisco، شبکه و پیاده‌سازی سناریوهای عملی با Cisco Packet Tracer."
+    },
+    {
+      "degree": "دیپلم مهندسی کامپیوتر (گرایش شبکه)",
+      "institution": "هنرستان فنی نمونه دولتی رسالت (تهران)",
+      "period": "1400 - 1398",
+      "details": "مفاهیم کامپیوتر، سخت‌افزار و نرم‌افزار، شروع برنامه‌نویسی با C#، الگوریتم‌نویسی و برنامه‌نویسی اولیه، مبانی شبکه و پیکربندی تجهیزات MikroTik."
+    }
+  ],
+  "skills": [
+    "React",
+    "Redux",
+    "NextJS",
+    "Typescript",
+    "Django",
+    "Python",
+    "Golang",
+    "PostgreSQL",
+    "MongoDB",
+    "ObjectDB",
+    "RESTful APIs",
+    "LLM APIs",
+    "GIT + CI/CD",
+    "Docker, Kubernetes",
+    "Linux (LPIC 2)",
+    "Windows (MCSA)"
+  ],
+  "projects": [
+    {
+      "name": "دیدار",
+      "description": "پیاده‌سازی سامانه ثبت و مدیریت حضور و غیاب مبتنی بر تشخیص چهره، با قابلیت شناسایی چهره از تصاویر و ویدئو، مدیریت کاربران و ثبت سوابق حضور، با استفاده از face_recognition و Python، Django.",
+      "url": "https://github.com/creepcomp/didar.ir"
+    },
+    {
+      "name": "استوک دیوایس",
+      "description": "طراحی و ساخت فروشگاه اینترنتی اختصاصی با فریمورک های React طراحی و ساخت Back-End و Front-End بین RESTful API با ارتباط، Django با قابلیت مدیریت محصولات، احراز هویت کاربران، سبد خرید، ثبت و پیگیری سفارش‌ها و پنل مدیریت.",
+      "url": "https://github.com/creepcomp/stockdevice.ir"
+    },
+    {
+      "name": "میت آپ",
+      "description": "طراحی و پیاده‌سازی پلتفرم جلسات آنلاین با قابلیت ایجاد اتاق، ارتباط صوتی و تصویری و چت لحظه‌ای، با استفاده از Go، WebSocket و React، TypeScript، WebRTC، Screen Sharing.",
+      "url": "https://github.com/creepcomp/meetup.ir"
+    },
+    {
+      "name": "واچ روم",
+      "description": "طراحی و پیاده سازی پلتفرم تماشای همزمان فیلم با دوستان، با قابلیت همگام سازی پخش و ارتباط Real-time از طریق WebSocket. توسعه Backend با Go (Gin) و پیاده سازی رابط کاربری با React Native.",
+      "url": "https://github.com/creepcomp/watchroom.ir"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Google Foobar Challenge",
+      "description": "دریافت دعوت‌نامه اختصاصی برای شرکت در چالش برنامه‌نویسی Google با تمرکز بر حل مسائل الگوریتمی و مهارت‌های Problem Solving.",
+      "url": "https://github.com/creepcomp/google-foobar"
+    },
+    {
+      "name": "GitHub Pull Shark",
+      "description": "دریافت نشان Pull Shark در GitHub به دلیل ثبت Pull Request های پذیرفته و ادغام شده.",
+      "url": "https://github.com/creepcomp?tab=achievements"
+    }
+  ],
+  "social": {
+    "phone": "+98-9361966744",
+    "email": "creepcomp@gmail.com",
+    "linkedin": "linkedin.com/in/creepcomp",
+    "github": "github.com/creepcomp"
+  }
+}

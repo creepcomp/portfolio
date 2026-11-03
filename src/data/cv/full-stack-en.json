@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "full-stack-en",
+    "direction": "ltr",
+    "locale": "en"
+  },
+  "personal": {
+    "name": "Parsa Rostamzadeh",
+    "title": "Full-Stack Developer",
+    "email": "creepcomp@gmail.com",
+    "phone": "+98-9361966744",
+    "location": "Tehran, Iran",
+    "image": "/profile.webp",
+    "website": "creepcomp.ir",
+    "summary": "Full-Stack Web Developer specializing in building web applications with React, Next.js, and Django. Proficient in TypeScript, Python And Golang, with knowledge of RESTful API architecture. Skilled in frontend development using Tailwind, Shadcn, MUI, and Redux. Familiar with PostgreSQL, MongoDB, and ObjectDB, as well as Linux, Docker, Git, and CI/CD."
+  },
+  "education": [
+    {
+      "degree": "MSc Computer Engineering",
+      "institution": "Islamic Azad University (Electronics Branch)",
+      "period": "In Progress - 2026",
+      "details": "Currently pursuing Master's in Computer Engineering with focus on software development and related technologies."
+    },
+    {
+      "degree": "Associate Degree in Computer Engineering",
+      "institution": "Shahid Shamsipoor Technical Faculty (Tehran)",
+      "period": "2026 - 2023",
+      "details": "Advanced network infrastructure design and implementation, Cisco device configuration in Layers 2 and 3, complex scenario simulation with EVE-NG and GNS3, Linux Administration and Linux service management, Docker, Windows Server, and DevOps concepts, MCSE and LPIC fundamentals (Self-Study)."
+    },
+    {
+      "degree": "BSc Computer Engineering (Network Specialization)",
+      "institution": "Shahid Shamsipoor Technical Faculty (Tehran)",
+      "period": "2023 - 2021",
+      "details": "Computer network fundamentals, communication protocols, Cisco equipment, IP addressing, Subnetting, Routing, CCNA concepts, Cisco device configuration, network implementation and practical scenarios with Cisco Packet Tracer."
+    },
+    {
+      "degree": "Diploma in Computer Engineering (Network Specialization)",
+      "institution": "Resalat Governmental Technical High School (Tehran)",
+      "period": "2021 - 2019",
+      "details": "Computer concepts, hardware and software, introduction to programming with C#, algorithm design and basic programming, network fundamentals and MikroTik device configuration."
+    }
+  ],
+  "skills": [
+    "React",
+    "Redux",
+    "NextJS",
+    "Typescript",
+    "Django",
+    "Python",
+    "Golang",
+    "PostgreSQL",
+    "MongoDB",
+    "ObjectDB",
+    "RESTful APIs",
+    "LLM APIs",
+    "GIT + CI/CD",
+    "Docker, Kubernetes",
+    "Linux (LPIC 2)",
+    "Windows (MCSA)"
+  ],
+  "projects": [
+    {
+      "name": "Didar",
+      "description": "Face recognition-based attendance management system with face detection from images and video, user management, and attendance logging using face_recognition and Python, Django.",
+      "url": "https://github.com/creepcomp/didar.ir"
+    },
+    {
+      "name": "StockDevice",
+      "description": "Custom e-commerce platform with React, Django RESTful API integration, product management, user authentication, shopping cart, order tracking, and admin panel.",
+      "url": "https://github.com/creepcomp/stockdevice.ir"
+    },
+    {
+      "name": "MeetUp",
+      "description": "Online meeting platform with room creation, audio/video communication, real-time chat, WebRTC, and screen sharing using Go, WebSocket, React, and TypeScript.",
+      "url": "https://github.com/creepcomp/meetup.ir"
+    },
+    {
+      "name": "WatchRoom",
+      "description": "Synchronized movie watching platform with real-time playback sync and WebSocket communication. Backend with Go (Gin) and UI with React Native.",
+      "url": "https://github.com/creepcomp/watchroom.ir"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Google Foobar Challenge",
+      "description": "Received exclusive invitation to participate in Google's programming challenge focusing on algorithmic problem solving.",
+      "url": "https://github.com/creepcomp/google-foobar"
+    },
+    {
+      "name": "GitHub Pull Shark",
+      "description": "Received Pull Shark badge on GitHub for merged pull requests.",
+      "url": "https://github.com/creepcomp?tab=achievements"
+    }
+  ],
+  "social": {
+    "phone": "+98-9361966744",
+    "email": "creepcomp@gmail.com",
+    "linkedin": "linkedin.com/in/creepcomp",
+    "github": "github.com/creepcomp"
+  }
+}
